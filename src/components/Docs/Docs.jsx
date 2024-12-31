@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Docs/docs.css'
-import AspectRatio from '../Pages/AspectRatio'
 import { Outlet, Link } from 'react-router-dom'
 
 function Docs() {
@@ -41,31 +40,31 @@ function Docs() {
                     </li>
                     <li>
                         <h5 className='mb-2 bg-secondary rounded-md p-2'>Flexbox & Grid</h5>
-                        <ul className='*:pl-8 *:mb-2 *:cursor-pointer'>
-                            <li>Flex Basis</li>
-                            <li>Flex Direction</li>
-                            <li>Flex Wrap</li>
-                            <li>Flex</li>
-                            <li>Flex Grow</li>
-                            <li>Flex Shrink</li>
-                            <li>Order</li>
-                            <li>Grid Template Columns</li>
-                            <li>Grid Column Start / End</li>
-                            <li>Grid Template Rows</li>
-                            <li>Grid Row Start / End</li>
-                            <li>Grid Auto Flow</li>
-                            <li>Grid Auto Columns</li>
-                            <li>Grid Auto Rows</li>
-                            <li>Gap</li>
-                            <li>Justify Content</li>
-                            <li>Justify Items</li>
-                            <li>Justify Self</li>
-                            <li>Align Content</li>
-                            <li>Align Items</li>
-                            <li>Align Self</li>
-                            <li>Place Content</li>
-                            <li>Place Items</li>
-                            <li>Place Self</li>
+                        <ul className='*:pl-8 *:mb-2'>
+                            <li><Link to='/docs/flex-basis'>Flex Basis</Link></li>
+                            <li><Link to='/docs/flex-direction'>Flex Direction</Link></li>
+                            <li><Link to='/docs/flex-wrap'>Flex Wrap</Link></li>
+                            <li><Link to='/docs/flex'>Flex</Link></li>
+                            <li><Link to='/docs/flex-grow'>Flex Grow</Link></li>
+                            <li><Link to='/docs/flex-shrink'>Flex Shrink</Link></li>
+                            <li><Link to='/docs/order'>Order</Link></li>
+                            <li><Link to='/docs/grid-template-columns'>Grid Template Columns</Link></li>
+                            <li><Link to='/docs/grid-column-start-end'>Grid Column Start / End</Link></li>
+                            <li><Link to='/docs/grid-template-rows'>Grid Template Rows</Link></li>
+                            <li><Link to='/docs/grid-row-start-end'>Grid Row Start / End</Link></li>
+                            <li><Link to='/docs/grid-auto-flow'>Grid Auto Flow</Link></li>
+                            <li><Link to='/docs/grid-auto-columns'>Grid Auto Columns</Link></li>
+                            <li><Link to='/docs/grid-auto-rows'>Grid Auto Rows</Link></li>
+                            <li><Link to='/docs/gap'>Gap</Link></li>
+                            <li><Link to='/docs/justify-content'>Justify Content</Link></li>
+                            <li><Link to='/docs/justify-items'>Justify Items</Link></li>
+                            <li><Link to='/docs/justify-self'>Justify Self</Link></li>
+                            <li><Link to='/docs/align-content'>Align Content</Link></li>
+                            <li><Link to='/docs/align-items'>Align Items</Link></li>
+                            <li><Link to='/docs/align-self'>Align Self</Link></li>
+                            <li><Link to='/docs/place-content'>Place Content</Link></li>
+                            <li><Link to='/docs/place-items'>Place Items</Link></li>
+                            <li><Link to='/docs/place-self'>Place Self</Link></li>
                         </ul>
                     </li>
                     <li>
