@@ -6,7 +6,7 @@ function BreakBefore() {
             <h1 className='text-3xl font-semibold mt-4 mb-6'>Break Before.</h1>
             <p className="mb-4">The <span className="font-semibold">break-before</span> utility in LiFrame determines the page, column, or region break behavior before an element. It is useful for controlling content flow in multi-column layouts or paginated documents, especially when you want specific elements to always appear at the beginning of a new page, column, or region.</p>
             <section className='mb-7'>
-                <table className='table-auto border-separate w-full'>
+                <table className='w-full'>
                     <thead>
                         <tr>
                             <th className='text-left border-b border-[#ababab] py-2'>Class</th>

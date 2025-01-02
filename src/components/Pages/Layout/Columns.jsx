@@ -5,7 +5,7 @@ function Columns() {
         <div className='h-full overflow-scroll'>
             <h1 className='text-3xl font-semibold mt-4 mb-6'>Columns.</h1>
             <p className='mb-4'>The <span className="font-semibold">columns</span> utility in LiFrame allows you to easily define a multi-column layout, where content automatically flows across columns. This is useful for creating layouts like magazines, articles, or grids where content spans multiple columns.</p>
-            <section className='mb-7 h-3/5 overflow-y-scroll rd'>
+            <section className='mb-7 h-3/5 overflow-y-scroll'>
                 <table className='w-full'>
                     <thead className='sticky top-0'>
                         <tr className='bg-primary'>

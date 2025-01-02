@@ -6,7 +6,7 @@ function BreakAfter() {
             <h1 className='text-3xl font-semibold mt-4 mb-6'>Break After.</h1>
             <p className="mb-4">The <span className='font-semibold'>break-after</span> utility in LiFrame controls the page, column, or region break behavior after an element. It allows you to specify how and where content should break after an element in a layout, such as multi-column or paginated layouts. This is particularly useful for controlling printed documents or layouts with flowable content.</p>
             <section className='mb-7'>
-                <table className='table-auto border-separate w-full'>
+                <table className='w-full'>
                     <thead>
                         <tr>
                             <th className='text-left border-b border-[#ababab] py-2'>Class</th>

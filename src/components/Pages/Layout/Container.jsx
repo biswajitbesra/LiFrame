@@ -6,7 +6,7 @@ function Container() {
             <h1 className='text-3xl font-semibold mt-4 mb-6'>Container.</h1>
             <p className='mb-4'>The <span className="font-semibold">container</span> class in LiFrame is used to create a responsive fixed-width container. The width of the container adjusts automatically based on the screen size, providing consistent spacing and layout structure across different devices.</p>
             <section className='mb-7'>
-                <table className='table-auto w-full'>
+                <table className='w-full'>
                     <thead>
                         <tr>
                             <th className='text-left border-b border-[#ababab] py-2'>Class</th>

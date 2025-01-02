@@ -6,7 +6,7 @@ function BoxDecorationBreak() {
             <h1 className='text-3xl font-semibold mt-4 mb-6'>Box Decoration Break.</h1>
             <p className="mb-4">The <span className="font-semibold">box-decoration-break</span> utility in Tailwind CSS controls how box decorations (such as borders, backgrounds, shadows, etc.) behave when a box is fragmented across multiple lines, columns, or pages.</p>
             <section className='mb-7'>
-                <table className='table-auto border-separate w-full'>
+                <table className='w-full'>
                     <thead>
                         <tr>
                             <th className='text-left border-b border-[#ababab] py-2'>Class</th>
