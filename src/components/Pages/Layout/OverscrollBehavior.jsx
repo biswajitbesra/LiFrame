@@ -3,63 +3,83 @@ import React from 'react'
 function OverscrollBehavior() {
     return (
         <div className='h-full overflow-scroll'>
-            <h1 className='text-3xl font-semibold mt-4 mb-6'>Overscroll Behavior</h1>
-            <section className='mb-8'>
-                <table className='table-auto border-separate w-full'>
+            <h1 className='text-3xl font-semibold mt-4 mb-6'>Overscroll Behavior--</h1>
+            <p className="mb-4">The <span className="font-semibold">overscroll-behavior</span> property in LiFrame controls how the browser handles scrolling past the edge of a scrollable element. It is especially useful for managing scroll behavior in certain elements such as when a user scrolls beyond the end of a scrollable area. This can improve user experience by preventing unwanted scrolling effects like bouncing or content sliding when it shouldn't.</p>
+            <section className='mb-7'>
+                <table className='w-full'>
                     <thead>
                         <tr>
                             <th className='text-left border-b border-[#ababab] py-2'>Class</th>
-                            <th className='text-left border-b border-[#ababab] py-2'>Breakpoint</th>
                             <th className='text-left border-b border-[#ababab] py-2'>Properties</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td className='py-2'>container</td>
-                            <td className='border-b text-gray-700 border-[#ababab] py-2'>None</td>
-                            <td className='border-b border-[#ababab] py-2'>width: 100%;</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-auto</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-behavior: auto;</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td className='border-b text-gray-700 border-[#ababab] py-2'>sm (640px)</td>
-                            <td className='border-b border-[#ababab] py-2'>max-width: 640px;</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-contain</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-behavior: contain;</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td className='border-b text-gray-700 border-[#ababab] py-2'>md (768px)</td>
-                            <td className='border-b border-[#ababab] py-2'>max-width: 768px;</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-none</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-behavior: none;</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td className='border-b text-gray-700 border-[#ababab] py-2'>lg (1024px)</td>
-                            <td className='border-b border-[#ababab] py-2'>max-width: 1024px;</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-y-auto</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-behavior-y: auto;</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td className='border-b text-gray-700 border-[#ababab] py-2'>xl (1280px)</td>
-                            <td className='border-b border-[#ababab] py-2'>max-width: 1280px;</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-y-contain</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-behavior-y: contain;</td>
                         </tr>
                         <tr>
-                            <td className='border-b border-[#ababab] py-2'></td>
-                            <td className='border-b text-gray-700 border-[#ababab] py-2'>2xl (1536px)</td>
-                            <td className='border-b border-[#ababab] py-2'>max-width: 1536px;</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-y-none</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-behavior-y: none;</td>
+                        </tr>
+                        <tr>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-x-auto</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-behavior-x: auto;</td>
+                        </tr>
+                        <tr>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-x-contain</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-behavior-x: contain;</td>
+                        </tr>
+                        <tr>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-x-none</td>
+                            <td className='border-b border-[#ababab] py-2'>overscroll-behavior-x: none;</td>
                         </tr>
                     </tbody>
                 </table>
             </section>
-            <section className="mb-8">
-                <h5 className='font-semibold text-lg mb-6'>Basic usage</h5>
+            <section className="mb-7">
+                <h5 className='font-semibold text-lg'>Basic usage</h5>
+                <p className="mb-4"><span className="font-semibold">overscroll-behavior</span></p>
                 <pre className='border border-black p-2 rounded-lg'>
-                    <code className='font-thin'>
-                        <span>&lt;</span><span>div</span> <span>class</span><span>=</span><span>"</span><span className='bg-secondary p-1 rounded'>container</span> <span>mx-auto</span><span>"</span><span>&gt;</span>...<span>&lt;/div&gt;</span>
+                    <code>
+                        {`<div class="`}<span className="bg-secondary p-1 rounded">overscroll-contain</span>{` ...">Well, let me tell you something, ...</div>`}
+                    </code>
+                </pre>
+                <pre className='border border-black p-2 rounded-lg'>
+                    <code>
+                        {`<div class="`}<span className="bg-secondary p-1 rounded">overscroll-none</span>{` ...">Well, let me tell you something, ...</div>`}
+                    </code>
+                </pre>
+                <pre className='border border-black p-2 rounded-lg'>
+                    <code>
+                        {`<div class="`}<span className="bg-secondary p-1 rounded">overscroll-auto</span>{` ...">Well, let me tell you something, ...</div>`}
                     </code>
                 </pre>
             </section>
-            <section className='mb-8'>
-                <h5 className='font-semibold text-lg mb-6'>Applying conditionally</h5>
+            <section className='mb-7'>
+                <h5 className='font-semibold text-lg'>Applying conditionally</h5>
+                <p className="mb-4">You can also apply the overscroll behavior conditionally using LiFrame’s pseudo-classes like <span className="font-semibold">hover</span>, <span className="font-semibold">focus</span>, and others. This allows you to create more dynamic and responsive designs.</p>
                 <pre className='border border-black p-2 rounded-lg'>
-                    <code className='font-thin'>
-                        <span>&lt;</span><span>div</span> <span>class</span><span>="</span><span className='bg-secondary p-1 rounded'>md:container</span> <span>mx-auto</span><span>"</span><span>&gt;</span><span>...</span><span>&lt;/iframe&gt;</span>
+                    <code>
+                        {`<html class="overscroll-auto `}<span className="bg-secondary p-1 rounded">focus:overscroll-contain</span>{`">
+  <!-- ... -->
+</html>`}
                     </code>
                 </pre>
             </section>
