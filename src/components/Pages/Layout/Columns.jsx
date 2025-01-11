@@ -124,11 +124,21 @@ function Columns() {
             <section className="mb-8">
                 <h5 className='font-semibold text-lg'>Basic usage</h5>
                 <p className="mb-4">Use utilities like <span className="font-semibold">columns-2</span> and <span className="font-semibold">columns-3</span> to set the number of columns that should be created for the content within an element. The column width will be automatically adjusted to accommodate that number.</p>
+                <div className='mb-5 p-5 rounded-lg border border-black'>
+                    <div className='columns-1 sm:columns-3 gap-4'>
+                        <img className='w-full rounded-md' src="https://plus.unsplash.com/premium_photo-1669613233557-1676c121fe73?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                        <img className='w-full mt-4 rounded-md' src="https://images.unsplash.com/photo-1465408522361-a6f502298219?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjEwfHxmb3Jlc3R8ZW58MHx8MHx8fDA%3D" alt="" />
+                        <img className='w-full mt-4 rounded-md' src="https://plus.unsplash.com/premium_photo-1666874681316-023c0fc7a4be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMzfHxmb3Jlc3R8ZW58MHx8MHx8fDA%3D" alt="" />
+                        <img className='w-full mt-4 rounded-md' src="https://images.unsplash.com/photo-1420745981456-b95fe23f5753?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg0fHxmb3Jlc3R8ZW58MHx8MHx8fDA%3D" alt="" />
+                        <img className='w-full mt-4 rounded-md' src="https://plus.unsplash.com/premium_photo-1669240769839-05d04cb2f714?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODF8fGZvcmVzdCUyMGFuZCUyMGFuaW1hbHN8ZW58MHx8MHx8fDA%3D" alt="" />
+                        <img className='w-full mt-4 rounded-md' src="https://images.unsplash.com/photo-1521753643072-122f97ed86e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGZvcmVzdHxlbnwwfHwwfHx8MA%3D%3D" alt="" />
+                    </div>
+                </div>
                 <pre className='border border-black p-2 rounded-lg'>
                     <code>
                         {`<div class="`}<span className='bg-secondary p-1 rounded'>columns-3</span> {`gap-4">
-  <img class="w-full aspect-video ..." src="..." />
-  <img class="w-full aspect-square ..." src="..." />
+  <img class="w-full ..." src="..." />
+  <img class="w-full ..." src="..." />
   <!-- ... -->
 </div>`}
                     </code>

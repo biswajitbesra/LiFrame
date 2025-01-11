@@ -28,13 +28,35 @@ function BoxDecorationBreak() {
             <section className="mb-7">
                 <h5 className='font-semibold text-lg'>Basic usage</h5>
                 <p className="mb-4">Use the <span className="font-semibold">box-decoration-slice</span> and <span className="font-semibold">box-decoration-clone</span> utilities to control whether properties like background, border, border-image, box-shadow, clip-path, margin, and padding should be rendered as if the element were one continuous fragment, or distinct blocks.</p>
+                <div class="relative overflow-auto mb-5 p-5 rounded-lg border border-black">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 px-10 font-mono font-bold">
+                        <div class="flex flex-col">
+                            <p class="font-medium text-sm text-black font-mono mb-3">box-decoration-slice</p>
+                            <div class="text-5xl font-extrabold leading-none tracking-tight font-sans">
+                                <span class="box-decoration-slice text-white bg-gradient-to-r  from-neutral-800 to-green-700 leading-[3.5rem] px-2">
+                                    Hello<br />
+                                    World
+                                </span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col">
+                            <p class="font-medium text-sm text-black font-mono mb-3">box-decoration-clone</p>
+                            <div class="text-5xl font-extrabold leading-none tracking-tight font-sans">
+                                <span class="box-decoration-clone text-white bg-gradient-to-r from-neutral-800 to-green-700 leading-[3.5rem] px-2">
+                                    Hello<br />
+                                    World
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <pre className='border border-black p-2 rounded-lg w-full overflow-x-scroll'>
                     <code className='w-full overflow-x-scroll'>
-                        {`<span class="`}<span className="bg-secondary p-1 rounded">box-decoration-slice</span> {`bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+                        {`<span class="`}<span className="bg-secondary p-1 rounded">box-decoration-slice</span> {`bg-gradient-to-r from-neutral-800 to-green-700 text-white px-2 ...">
   Hello<br />
   World
 </span>
-<span class="`}<span className="bg-secondary p-1 rounded">box-decoration-clone</span> {`bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+<span class="`}<span className="bg-secondary p-1 rounded">box-decoration-clone</span> {`bg-gradient-to-r from-neutral-800 to-green-700 text-white px-2 ...">
   Hello<br />
   World
 </span>`}
