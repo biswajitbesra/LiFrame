@@ -134,6 +134,7 @@ function Columns() {
                         <img className='w-full mt-4 rounded-md' src="https://images.unsplash.com/photo-1521753643072-122f97ed86e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGZvcmVzdHxlbnwwfHwwfHx8MA%3D%3D" alt="" />
                     </div>
                 </div>
+            <p className='mb-2'><span className='px-2 py-0.5 bg-secondary rounded'>Note:</span> To manage the gap between columns use <span className='font-semibold'>gap-&#9913;.</span></p>
                 <pre className='border border-black p-2 rounded-lg'>
                     <code>
                         {`<div class="`}<span className='bg-secondary p-1 rounded'>columns-3</span> {`gap-4">

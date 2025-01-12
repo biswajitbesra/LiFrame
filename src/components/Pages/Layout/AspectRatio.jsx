@@ -31,7 +31,7 @@ function AspectRatio() {
             </section>
             <section className='mb-7'>
                 <h5 className='font-semibold text-lg'>Basic usage</h5>
-                <p className='mb-4'>To apply an aspect ratio to an element, simply add the appropriate <span className='font-semibold'>aspect-*</span> utility class.</p>
+                <p className='mb-4'>To apply an aspect ratio to an element, simply add the appropriate <span className='font-semibold'>aspect-&#9913;</span> utility class.</p>
                 <div className='mb-5 p-5 rounded-lg border border-black'>
                     <iframe className='w-full aspect-video rounded-lg' src="https://www.youtube.com/embed/HcOc7P5BMi4" title="HTML Tutorial for Beginners | Complete HTML with Notes &amp; Code" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>

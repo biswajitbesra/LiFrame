@@ -103,9 +103,32 @@ function Display() {
             </section>
             <section className="mb-7">
                 <h5 className='font-semibold text-lg mb-6'>Basic usage</h5>
-                <p className="mb-4">LiFrame’s <span className="font-semibold">display</span> utilities are used to set the display property of an element. This can be applied directly in the markup.</p>
-                <pre className='border border-black p-2 rounded-lg'>
+                <p className="mb-4">Use the <span className="font-semibold">inline</span>, <span className="font-semibold">block</span>, and <span className="font-semibold">inline-block</span> utilities to control the flow of text and elements.</p>
+                <div className="border border-black p-5 mb-5 rounded-lg">
+                    The <span className="bg-secondary bg-opacity-50 px-1 rounded inline">inline</span> class is perfect for placing small elements like icons or links within a line of text, ensuring they flow naturally with surrounding content.
+                    <br />
+                    <br />
+                    Using the <span className="bg-secondary bg-opacity-50 px-1 rounded block">block</span> class allows you to create elements that take up the full width of their container, making them ideal for headings, paragraphs, or dividers.
+                    <br />
+                    <br />
+                    With the <span className="bg-secondary bg-opacity-50 px-1 rounded inline-block">inline-block</span> class, you can style elements like buttons or badges to behave inline while still allowing custom width and height adjustments.
+                </div>
+                <pre className='border border-black p-2 rounded-lg '>
                     <code>
+{`<div>
+  The <span className="inline">inline</span> 
+  class is perfect for placing small elements like icons or links within a line of text, 
+  ensuring they flow naturally with surrounding content.
+
+  Using the <span className="block">block</span> 
+  class allows you to create elements that take up the full width of their container, 
+  making them ideal for headings, paragraphs, or dividers.
+
+  With the <span className="inline-block">inline-block</span> class, 
+  you can style elements like buttons or badges to behave inline while still allowing 
+  custom width and height adjustments.
+</div>
+`}
                     </code>
                 </pre>
             </section>
