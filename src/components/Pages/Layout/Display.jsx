@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Display() {
     return (
@@ -102,7 +103,8 @@ function Display() {
                 </table>
             </section>
             <section className="mb-7">
-                <h5 className='font-semibold text-lg mb-6'>Basic usage</h5>
+                <h5 className='font-semibold text-lg mb-3'>Basic usage</h5>
+                <h6 className="font-bold text-lg mb-2">Block & Inline</h6>
                 <p className="mb-4">Use the <span className="font-semibold">inline</span>, <span className="font-semibold">block</span>, and <span className="font-semibold">inline-block</span> utilities to control the flow of text and elements.</p>
                 <div className="border border-black p-5 mb-5 rounded-lg">
                     The <span className="bg-secondary bg-opacity-50 px-1 rounded inline">inline</span> class is perfect for placing small elements like icons or links within a line of text, ensuring they flow naturally with surrounding content.
@@ -113,22 +115,46 @@ function Display() {
                     <br />
                     With the <span className="bg-secondary bg-opacity-50 px-1 rounded inline-block">inline-block</span> class, you can style elements like buttons or badges to behave inline while still allowing custom width and height adjustments.
                 </div>
-                <pre className='border border-black p-2 rounded-lg '>
+                <pre className='border border-black p-2 rounded-lg mb-7'>
                     <code>
 {`<div>
-  The <span className="inline">inline</span> 
+  The <span class="inline">inline</span> 
   class is perfect for placing small elements like icons or links within a line of text, 
   ensuring they flow naturally with surrounding content.
 
-  Using the <span className="block">block</span> 
+  Using the <span class="block">block</span> 
   class allows you to create elements that take up the full width of their container, 
   making them ideal for headings, paragraphs, or dividers.
 
-  With the <span className="inline-block">inline-block</span> class, 
+  With the <span class="inline-block">inline-block</span> class, 
   you can style elements like buttons or badges to behave inline while still allowing 
   custom width and height adjustments.
 </div>
 `}
+                    </code>
+                </pre>
+                <h6 className="font-bold text-lg mb-2">Flow Root</h6>
+                <p className="mb-4">
+                    The <span className="font-semibold">flow-root</span> class is used to establish a new <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Block_formatting_context" className='underline underline-offset-2 decoration-third'>block formatting context</Link>, which ensures that floats inside the container are properly cleared. Here's an example:
+                </p>
+                <div className="p-5 border border-black rounded-lg mb-5">
+                    <div className="flow-root bg-blue-100 p-4 rounded">
+                        <div className="float-left w-1/3 bg-blue-200 p-2">Left Float</div>
+                        <div className="float-right w-1/3 bg-blue-300 p-2">Right Float</div>
+                        <p className="mt-4">
+                            The parent container uses the flow-root class, so it wraps around its floated children automatically.
+                        </p>
+                    </div>
+                </div>
+                <pre className='border border-black p-2 rounded-lg mb-7'>
+                    <code>
+{`<div class="`}<span className="bg-secondary p-1 rounded">flow-root</span>{` bg-blue-100 p-4 rounded">
+    <div class="float-left w-1/3 bg-blue-200 p-2">Left Float</div>
+    <div class="float-right w-1/3 bg-blue-300 p-2">Right Float</div>
+    <p class="mt-4">
+        The parent container uses the flow-root class, so it wraps around its floated children automatically.
+    </p>
+</div>`}
                     </code>
                 </pre>
             </section>
