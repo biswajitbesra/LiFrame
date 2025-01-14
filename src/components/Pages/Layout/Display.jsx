@@ -149,11 +149,47 @@ function Display() {
                 <pre className='border border-black p-2 rounded-lg mb-7'>
                     <code>
 {`<div class="`}<span className="bg-secondary p-1 rounded">flow-root</span>{` bg-blue-100 p-4 rounded">
-    <div class="float-left w-1/3 bg-blue-200 p-2">Left Float</div>
-    <div class="float-right w-1/3 bg-blue-300 p-2">Right Float</div>
-    <p class="mt-4">
-        The parent container uses the flow-root class, so it wraps around its floated children automatically.
-    </p>
+  <div class="float-left w-1/3 bg-blue-200 p-2">Left Float</div>
+  <div class="float-right w-1/3 bg-blue-300 p-2">Right Float</div>
+  <p class="mt-4">The parent container uses the flow-root class, so it wraps...</p>
+</div>`}
+                    </code>
+                </pre>
+                <h6 className="font-bold text-lg mb-2">Flex</h6>
+                <p className="mb-4">
+                    Use the <span className="font-semibold">flex</span> utility to create a block-level flex container.
+                </p>
+                <div className='border border-black p-5 rounded-lg flex justify-center mb-5'>
+                    <div className='flex gap-4 w-3/4'>
+                        <div className='h-14 w-48 bg-secondary flex justify-center items-center rounded-md'>01</div>
+                        <div className='h-14 w-48 bg-secondary flex justify-center items-center rounded-md'>02</div>
+                        <div className='h-14 w-48 bg-secondary flex justify-center items-center rounded-md'>03</div>
+                    </div>
+                </div>
+                <pre className='border border-black p-2 rounded-lg mb-7'>
+                    <code>
+{`<div className='`}<span className="bg-secondary p-1 rounded">flex</span>{` gap-4'>
+  <div> 01 </div>
+  <div> 02 </div>
+  <div> 03 </div>
+</div>`}
+                    </code>
+                </pre>
+                <h6 className="font-bold text-lg mb-2">Inline Flex</h6>
+                <p className="mb-4">
+                    Use the <span className="font-semibold">inline-flex</span> utility to create an inline flex container that flows with text.
+                </p>
+                {/* <div className='border border-black p-5 mb-5'>
+                    <p>Nature is a stunning blend of forests, rivers, and mountains, full of life and beauty. It offers peace and balance with fresh air, vibrant wildlife, and soothing sounds. Every sunrise and starry night reminds us of our deep connection to the world around us.</p>
+                </div> */}
+                <p class="mx-auto max-w-lg bg-white shadow-xl p-4 text-slate-500 text-sm leading-6 sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-400">
+  Today I spent most of the day researching ways to take advantage of the fact that bottles can be returned for 10 cents in Michigan, but only 5 cents here. <span class="ml-1 inline-flex items-baseline"><img src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=80" alt="" class="self-center w-5 h-5 rounded-full mr-1"/><span class="font-medium text-slate-900 dark:text-slate-200">Kramer</span></span> keeps telling me there is no way to make it work, that he has run the numbers on every possible approach, but I just have to believe there's a way to make it work, there's simply too much opportunity here.
+</p>
+                <pre className='border border-black p-2 rounded-lg mb-7'>
+                    <code>
+{`<div className='flex gap-4'>
+  <img src="..." alt="" />
+  <div>Nature is a stunning blend of forests, rivers, and mountains, ...</div>
 </div>`}
                     </code>
                 </pre>
