@@ -121,7 +121,7 @@ function Columns() {
                     </tbody>
                 </table>
             </section>
-            <section className="mb-8">
+            <section className="mb-7">
                 <h5 className='font-semibold text-lg'>Basic usage</h5>
                 <p className="mb-4">Use utilities like <span className="font-semibold">columns-2</span> and <span className="font-semibold">columns-3</span> to set the number of columns that should be created for the content within an element. The column width will be automatically adjusted to accommodate that number.</p>
                 <div className='mb-5 p-5 rounded-lg border border-black'>
@@ -145,7 +145,7 @@ function Columns() {
                     </code>
                 </pre>
             </section>
-            <section className='mb-8'>
+            <section className='mb-7'>
                 <h5 className='font-semibold text-lg'>Applying conditionally</h5>
                 <p className="mb-4">You can apply the columns utility conditionally using pseudo-utilities such as <span className="font-semibold">hover</span>, <span className="font-semibold">focus</span>, or <span className="font-semibold">media queries</span>.</p>
                 <pre className='border border-black p-2 rounded-lg'>

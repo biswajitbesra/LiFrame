@@ -26,7 +26,7 @@ function BoxSizing() {
                 </table>
             </section>
             <section className="mb-7">
-                <h5 className='font-semibold text-lg mb-3'>Basic usage</h5>
+                <h5 className='font-semibold text-lg'>Basic usage</h5>
                 <h6 className='font-bold text-lg mb-2'>Including borders and padding</h6>
                 <p className="mb-2">Use the <span className="font-semibold">box-border</span> utility to set an element’s <span className="font-semibold">box-sizing</span> to <span className="font-semibold">border-box</span>, telling the browser to include the element’s borders and padding when you give it a height or width.</p>
                 <p className="mb-4">This means a 100px × 100px element with a 2px border and 4px of padding on all sides will be rendered as 100px × 100px, with an internal content area of 88px × 88px.</p>
