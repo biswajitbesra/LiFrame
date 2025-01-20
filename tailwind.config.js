@@ -28,6 +28,9 @@ export default {
             borderRadius:{
                 "4xl":"1.8rem"
             },
+            backgroundSize:{
+                "200%":"200%",
+            }
         },
     },
     plugins: [],
