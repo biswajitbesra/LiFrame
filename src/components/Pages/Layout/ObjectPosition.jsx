@@ -54,7 +54,7 @@ function ObjectPosition() {
                 </table>
             </section>
             <section className="mb-7">
-                <h5 className='font-semibold text-lg mb-6'>Basic usage</h5>
+                <h5 className='font-semibold text-lg'>Basic usage</h5>
                 <p className="mb-4">Use the <span className="font-semibold">object-&#9913;</span> utilities to specify how a replaced element’s content should be positioned within its container.</p>
                 <div className='mb-5 p-5 rounded-lg border border-black grid grid-cols-3 gap-5'>
                     <div>
@@ -136,7 +136,7 @@ function ObjectPosition() {
                 </pre>
             </section>
             <section className='mb-7'>
-                <h5 className='font-semibold text-lg mb-6'>Applying conditionally</h5>
+                <h5 className='font-semibold text-lg'>Applying conditionally</h5>
                 <p className="mb-4">You can apply object position utilities dynamically using pseudo-utilities such as <span className="font-semibold">hover</span>, <span className="font-semibold">focus</span>, or <span className="font-semibold">media queries</span>.</p>
                 <pre className='border border-black p-2 rounded-lg'>
                     <code>
