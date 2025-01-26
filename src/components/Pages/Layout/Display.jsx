@@ -138,7 +138,7 @@ function Display() {
                 <div className="mb-7">
                     <h6 className="font-bold text-lg mb-2">Flow Root</h6>
                     <p className="mb-4">
-                        The <span className="font-semibold">flow-root</span> class is used to establish a new <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Block_formatting_context" className='underline underline-offset-2 decoration-third'>block formatting context</Link>, which ensures that floats inside the container are properly cleared. Here's an example:
+                        The <span className="font-semibold">flow-root</span> class is used to establish a new <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Block_formatting_context" target='_blank' className='underline underline-offset-2 decoration-third'>block formatting context</Link>, which ensures that floats inside the container are properly cleared. Here's an example:
                     </p>
                     <div className="p-5 border border-black rounded-lg mb-5">
                         <div className="flow-root bg-blue-100 p-4 rounded">
