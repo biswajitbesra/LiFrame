@@ -1671,7 +1671,7 @@ function TopRightBottomLeft() {
                 </div>
                 <div className="mb-7">
                     <h6 className="font-bold text-lg mb-2">Using logical properties</h6>
-                    <p className="mb-2">Use the <span className="font-semibold">start-&#9913;</span> and <span className="font-semibold">end-&#9913;</span> utilities to set the <span className="font-semibold">inset-inline-start</span> and <span className="font-semibold">inset-inline-end</span> <Link to='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Basic_concepts' className='underline underline-offset-2 decoration-third font-semibold'>logical properties</Link>, which map to either the left or right side based on the text direction.</p>
+                    <p className="mb-2">Use the <span className="font-semibold">start-&#9913;</span> and <span className="font-semibold">end-&#9913;</span> utilities to set the <span className="font-semibold">inset-inline-start</span> and <span className="font-semibold">inset-inline-end</span> <Link to='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Basic_concepts' target='_blank' className='underline underline-offset-2 decoration-third font-semibold'>logical properties</Link>, which map to either the left or right side based on the text direction.</p>
                     <p className="mb-4">For more control, you can also use the <span className="font-semibold">LTR and RTL modifiers</span> to conditionally apply specific styles depending on the current text direction.</p>
                     <div className='border border-black rounded-lg p-5 mb-5'>
                         <div className="grid grid-cols-2 gap-x-4 place-items-center">
