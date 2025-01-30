@@ -3,7 +3,7 @@ import React from 'react'
 function Overflow() {
     return (
         <div className='h-full overflow-scroll'>
-            <h1 className='text-3xl font-semibold mt-4 mb-6'>Overflow--</h1>
+            <h1 className='text-3xl font-semibold mt-4 mb-6'>Overflow</h1>
             <p className="mb-4">The <span className="font-semibold">overflow</span> property in CSS controls what happens to content that is larger than its container. LiFrame provides utilities for managing both horizontal and vertical overflow, helping you handle scrolling or hiding of overflowing content effectively. These utilities can be applied to create responsive and interactive designs.</p>
             <section className='mb-7 h-3/5 overflow-y-scroll'>
                 <table className='w-full'>
