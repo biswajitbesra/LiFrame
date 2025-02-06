@@ -8,7 +8,7 @@ function Display() {
             <p className="mb-4">The <span className="font-semibold">display</span> property in CSS controls the display behavior of an element. It determines whether an element is rendered as a block, inline, or inline-block element. Tailwind CSS provides utilities for controlling the <span className="font-semibold">display</span> property, which allows for quick and responsive layout adjustments.</p>
             <section className='mb-7 h-3/5 overflow-y-scroll'>
                 <table className='w-full'>
-                    <thead>
+                    <thead className='sticky top-0 w-full bg-primary'>
                         <tr>
                             <th className='text-left border-b border-[#ababab] py-2'>Class</th>
                             <th className='text-left border-b border-[#ababab] py-2'>Properties</th>
