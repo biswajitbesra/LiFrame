@@ -8,7 +8,7 @@ function TopRightBottomLeft() {
             <p className="mb-4">The <span className="font-semibold">top</span>, <span className="font-semibold">right</span>, <span className="font-semibold">bottom</span>, and <span className="font-semibold">left</span> utilities in LiFrame are used to control the positioning of elements along the respective edges when the element's position is set to absolute, relative, fixed, or sticky. These utilities are helpful for placing elements in specific areas of their container or viewport.</p>
             <section className='mb-7 h-3/5 overflow-y-scroll'>
                 <table className='w-full'>
-                    <thead>
+                    <thead className='sticky top-0 w-full bg-primary'>
                         <tr>
                             <th className='text-left border-b border-[#ababab] py-2'>Class</th>
                             <th className='text-left border-b border-[#ababab] py-2'>Properties</th>
