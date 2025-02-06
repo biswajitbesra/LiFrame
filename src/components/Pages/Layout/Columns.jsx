@@ -7,8 +7,8 @@ function Columns() {
             <p className='mb-4'>The <span className="font-semibold">columns</span> utility in LiFrame allows you to easily define a multi-column layout, where content automatically flows across columns. This is useful for creating layouts like magazines, articles, or grids where content spans multiple columns.</p>
             <section className='mb-7 h-3/5 overflow-y-scroll'>
                 <table className='w-full'>
-                    <thead className='sticky top-0'>
-                        <tr className='bg-primary'>
+                    <thead className='sticky top-0 bg-primary'>
+                        <tr>
                             <th className='text-left border-b border-[#ababab] py-2'> Class </th>
                             <th className='text-left border-b border-[#ababab] py-2'> Properties </th>
                         </tr>
