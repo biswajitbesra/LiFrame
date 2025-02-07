@@ -15,7 +15,42 @@ function AlignContent() {
                         </tr>
                     </thead>
                     <tbody>
-                        {/* Leave the table content blank as per your request */}
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">content-normal</td>
+                            <td class="border-b border-[#ababab] py-2">align-content: normal;</td>
+                        </tr>
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">content-center</td>
+                            <td class="border-b border-[#ababab] py-2">align-content: center;</td>
+                        </tr>
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">content-start</td>
+                            <td class="border-b border-[#ababab] py-2">align-content: flex-start;</td>
+                        </tr>
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">content-end</td>
+                            <td class="border-b border-[#ababab] py-2">align-content: flex-end;</td>
+                        </tr>
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">content-between</td>
+                            <td class="border-b border-[#ababab] py-2">align-content: space-between;</td>
+                        </tr>
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">content-around</td>
+                            <td class="border-b border-[#ababab] py-2">align-content: space-around;</td>
+                        </tr>
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">content-evenly</td>
+                            <td class="border-b border-[#ababab] py-2">align-content: space-evenly;</td>
+                        </tr>
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">content-baseline</td>
+                            <td class="border-b border-[#ababab] py-2">align-content: baseline;</td>
+                        </tr>
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">content-stretch</td>
+                            <td class="border-b border-[#ababab] py-2">align-content: stretch;</td>
+                        </tr>
                     </tbody>
                 </table>
             </section>
