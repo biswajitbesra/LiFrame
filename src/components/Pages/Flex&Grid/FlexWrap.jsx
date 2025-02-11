@@ -15,7 +15,18 @@ function FlexWrap() {
                         </tr>
                     </thead>
                     <tbody>
-                        {/* Leave the table content blank as per your request */}
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">flex-wrap</td>
+                            <td class="border-b border-[#ababab] py-2">flex-wrap: wrap;</td>
+                        </tr>
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">flex-wrap-reverse</td>
+                            <td class="border-b border-[#ababab] py-2">flex-wrap: wrap-reverse;</td>
+                        </tr>
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">flex-nowrap</td>
+                            <td class="border-b border-[#ababab] py-2">flex-wrap: nowrap;</td>
+                        </tr>
                     </tbody>
                 </table>
             </section>

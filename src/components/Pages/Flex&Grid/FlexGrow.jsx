@@ -15,7 +15,14 @@ function FlexGrow() {
                         </tr>
                     </thead>
                     <tbody>
-                        {/* Leave the table content blank as per your request */}
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">grow</td>
+                            <td class="border-b border-[#ababab] py-2">flex-grow: 1;</td>
+                        </tr>
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">grow-0</td>
+                            <td class="border-b border-[#ababab] py-2">flex-grow: 0;</td>
+                        </tr>
                     </tbody>
                 </table>
             </section>
@@ -30,7 +37,6 @@ function FlexGrow() {
                 <p className='mb-4'>Flex grow behavior can be adjusted based on different screen sizes using responsive prefixes. Additionally, pseudo-classes like <span className='font-semibold'>hover</span> and <span className='font-semibold'>focus</span> can be used to dynamically change how an item grows.</p>
             </section>
         </div>
-
     )
 }
 
