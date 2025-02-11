@@ -15,7 +15,22 @@ function Flex() {
                         </tr>
                     </thead>
                     <tbody>
-                        {/* Leave the table content blank as per your request */}
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">flex-1</td>
+                            <td class="border-b border-[#ababab] py-2">flex: 1 1 0%;</td>
+                        </tr>
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">flex-auto</td>
+                            <td class="border-b border-[#ababab] py-2">flex: 1 1 auto;</td>
+                        </tr>
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">flex-initial</td>
+                            <td class="border-b border-[#ababab] py-2">flex: 0 1 auto;</td>
+                        </tr>
+                        <tr>
+                            <td class="border-b border-[#ababab] py-2">flex-none</td>
+                            <td class="border-b border-[#ababab] py-2">flex: none;</td>
+                        </tr>
                     </tbody>
                 </table>
             </section>
