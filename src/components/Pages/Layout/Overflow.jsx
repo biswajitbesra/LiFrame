@@ -19,7 +19,7 @@ function Overflow() {
                             <td className='border-b border-[#ababab] py-2'>overflow: auto;</td>
                         </tr>
                         <tr>
-                            <td className='border-b border-[#ababab] py-2'>flow-hidden</td>
+                            <td className='border-b border-[#ababab] py-2'>overflow-hidden</td>
                             <td className='border-b border-[#ababab] py-2'>overflow: hidden;</td>
                         </tr>
                         <tr>
