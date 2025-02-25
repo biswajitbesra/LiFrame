@@ -3,7 +3,7 @@ import React from 'react'
 function Flex() {
     return (
         <div className='h-full overflow-scroll'>
-            <h1 className='text-3xl font-semibold mt-4 mb-6'>Flex.</h1>
+            <h1 className='text-3xl font-semibold mt-4 mb-6'>Flex</h1>
             <p className='mb-4'>The <span className='font-semibold'>flex</span> utility in LiFrame controls how a flex item grows and shrinks inside a flex container. It determines how much space an element takes up relative to its siblings.</p>
 
             <section className='mb-7'>
