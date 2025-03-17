@@ -56,68 +56,68 @@ function ObjectPosition() {
             <section className="mb-7">
                 <h5 className='font-semibold text-lg'>Basic usage</h5>
                 <p className="mb-4">Use the <span className="font-semibold">object-&#9913;</span> utilities to specify how a replaced element’s content should be positioned within its container.</p>
-                <div className='mb-5 p-5 rounded-lg border border-black grid grid-cols-3 gap-5'>
+                <div className='mb-5 p-5 rounded-lg border border-black grid grid-cols-3 gap-8'>
                     <div>
                         <p className='text-center mb-3'>object-left-top</p>
                         <div className='relative h-16 w-16 mx-auto rounded-md overflow-hidden hover:overflow-visible'>
-                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-left-top' style={{backgroundImage:`url("https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid")`}}></div>
-                            <img className='h-32 w-32 opacity-50 rounded-md absolute top-0 left-0 max-w-none' src="https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid" alt="" />
+                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-left-top' style={{backgroundImage:`url("https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D")`}}></div>
+                            <img className='h-32 w-32 opacity-50 rounded-md absolute top-0 left-0 max-w-none' src="https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
                         </div>
                     </div>
                     <div>
                         <p className='text-center mb-3'>object-top</p>
                         <div className='relative h-16 w-16 mx-auto rounded-md overflow-hidden hover:overflow-visible'>
-                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-top' style={{backgroundImage:`url("https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid")`}}></div>
-                            <img className='h-32 w-32 opacity-50 rounded-md absolute top-0 -left-1/2 max-w-none' src="https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid" alt="" />
+                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-top' style={{backgroundImage:`url("https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D")`}}></div>
+                            <img className='h-32 w-32 opacity-50 rounded-md absolute top-0 -left-1/2 max-w-none' src="https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
                         </div>
                     </div>
                     <div>
                         <p className='text-center mb-3'>object-right-top</p>
                         <div className='relative h-16 w-16 mx-auto rounded-md overflow-hidden hover:overflow-visible'>
-                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-right-top' style={{backgroundImage:`url("https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid")`}}></div>
-                            <img className='h-32 w-32 opacity-50 rounded-md absolute top-0 right-0 max-w-none' src="https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid" alt="" />
+                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-right-top' style={{backgroundImage:`url("https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D")`}}></div>
+                            <img className='h-32 w-32 opacity-50 rounded-md absolute top-0 right-0 max-w-none' src="https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
                         </div>
                     </div>
                     <div>
                         <p className='text-center mb-3'>object-left</p>
                         <div className='relative h-16 w-16 mx-auto rounded-md overflow-hidden hover:overflow-visible'>
-                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-left' style={{backgroundImage:`url("https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid")`}}></div>
-                            <img className='h-32 w-32 opacity-50 rounded-md absolute -top-1/2 left-0 max-w-none' src="https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid" alt="" />
+                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-left' style={{backgroundImage:`url("https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D")`}}></div>
+                            <img className='h-32 w-32 opacity-50 rounded-md absolute -top-1/2 left-0 max-w-none' src="https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
                         </div>
                     </div>
                     <div>
                         <p className='text-center mb-3'>object-center</p>
                         <div className='relative h-16 w-16 mx-auto rounded-md overflow-hidden hover:overflow-visible'>
-                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-center' style={{backgroundImage:`url("https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid")`}}></div>
-                            <img className='h-32 w-32 opacity-50 rounded-md absolute -top-1/2 -left-1/2 max-w-none' src="https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid" alt="" />
+                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-center' style={{backgroundImage:`url("https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D")`}}></div>
+                            <img className='h-32 w-32 opacity-50 rounded-md absolute -top-1/2 -left-1/2 max-w-none' src="https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
                         </div>
                     </div>
                     <div>
                         <p className='text-center mb-3'>object-right</p>
                         <div className='relative h-16 w-16 mx-auto rounded-md overflow-hidden hover:overflow-visible'>
-                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-right' style={{backgroundImage:`url("https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid")`}}></div>
-                            <img className='h-32 w-32 opacity-50 rounded-md absolute -top-1/2 right-0 max-w-none' src="https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid" alt="" />
+                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-right' style={{backgroundImage:`url("https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D")`}}></div>
+                            <img className='h-32 w-32 opacity-50 rounded-md absolute -top-1/2 right-0 max-w-none' src="https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
                         </div>
                     </div>
                     <div>
                         <p className='text-center mb-3'>object-left-bottom</p>
                         <div className='relative h-16 w-16 mx-auto rounded-md overflow-hidden hover:overflow-visible'>
-                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-left-bottom' style={{backgroundImage:`url("https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid")`}}></div>
-                            <img className='h-32 w-32 opacity-50 rounded-md absolute bottom-0 left-0 max-w-none' src="https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid" alt="" />
+                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-left-bottom' style={{backgroundImage:`url("https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D")`}}></div>
+                            <img className='h-32 w-32 opacity-50 rounded-md absolute bottom-0 left-0 max-w-none' src="https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
                         </div>
                     </div>
                     <div>
                         <p className='text-center mb-3'>object-bottom</p>
                         <div className='relative h-16 w-16 mx-auto rounded-md overflow-hidden hover:overflow-visible'>
-                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-bottom' style={{backgroundImage:`url("https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid")`}}></div>
-                            <img className='h-32 w-32 opacity-50 rounded-md absolute bottom-0 -left-1/2 max-w-none' src="https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid" alt="" />
+                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-bottom' style={{backgroundImage:`url("https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D")`}}></div>
+                            <img className='h-32 w-32 opacity-50 rounded-md absolute bottom-0 -left-1/2 max-w-none' src="https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
                         </div>
                     </div>
                     <div>
                         <p className='text-center mb-3'>object-right-bottom</p>
                         <div className='relative h-16 w-16 mx-auto rounded-md overflow-hidden hover:overflow-visible'>
-                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-right-bottom' style={{backgroundImage:`url("https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid")`}}></div>
-                            <img className='h-32 w-32 opacity-50 rounded-md absolute bottom-0 right-0 max-w-none' src="https://img.freepik.com/free-photo/high-angle-shot-waterfalls-highlands-region-iceland-with-cloudy-gray-sky_181624-22131.jpg?ga=GA1.1.576126916.1735051726&semt=ais_hybrid" alt="" />
+                            <div className='h-full w-full relative rounded-md shadow-lg z-10 bg-200% bg-right-bottom' style={{backgroundImage:`url("https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D")`}}></div>
+                            <img className='h-32 w-32 opacity-50 rounded-md absolute bottom-0 right-0 max-w-none' src="https://images.unsplash.com/photo-1657512804476-f5decac6f6b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNxdWFyZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
                         </div>
                     </div>
                 </div>
